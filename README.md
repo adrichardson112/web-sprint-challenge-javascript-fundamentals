@@ -37,9 +37,11 @@ In easy terms, a closure allows us access to outside scope from an inner functio
 4. Describe the four rules of the 'this' keyword.
 This will return undefined or else will refer to the window console. It's a global object!
 Implicit Binding- This points to the whatever is placed to the left of the period when calling our function.
-Explicit Binding- 
+Explicit Binding- Allows this to point to a certain value using .call, .apply, or .bind.
+New Keyword- Using "new" we can create a new object and "this" points to the object. 
 
 5. Why do we need super() in an extended class?
+Extends is just an extension of the parent class. Using super() allows us to access and call functions on the parent's object. We don't duplicate values this way, rather instead inheriting from the parent. 
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
